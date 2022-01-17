@@ -1,4 +1,9 @@
-<table class="table">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://www.educationalappstore.com/images/best-apps-for-education.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">List of Students</h5>
+    <p class="card-text">You can find here all the information about students in the system.</p>
+    <table class="table">
     <thead>
         <tr>
             <th scope="col">CNE</th>
@@ -26,3 +31,5 @@
         @endforeach
     </tbody>
 </table>
+  </div>
+</div>
